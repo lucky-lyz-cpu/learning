@@ -16,6 +16,7 @@ app.get('/list', (req, res) => {
     ];
     res.header("Access-Control-Allow-Origin", "*");
     res.json(list);
+    console.log('在main里的修改')
 })
 
 app.listen('2021', () => {
